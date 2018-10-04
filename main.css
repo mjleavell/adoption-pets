@@ -1,3 +1,14 @@
 body {
     background-color: lightgrey;
 }
+
+#pets {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.card-img-top {
+    height: 164px;
+    object-fit: cover;
+}
