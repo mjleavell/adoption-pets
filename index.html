@@ -10,7 +10,21 @@
 </head>
 <body>
     <h1>Adopt A Pet</h1>
-
+    <div id="pets">
+        <div class="card text-center">
+            <div class="card-header">
+                <h3>${pets.name}</h3>
+            </div>
+            <div class="card-body">
+                <img class="card-img-top" src="${pets.image}" alt="{pets.name}">
+                <h5 class="card-text">${pets.color}</h5>
+                <h5 class="card-text">${pet.specialSkill}</h5>
+            </div>
+            <div class="card-footer text-muted">
+                <h3>$(pets.type}</h3>
+            </div>
+          </div>
+    </div>
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
