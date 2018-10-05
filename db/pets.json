@@ -13,7 +13,7 @@
         "name": "Trouble",
         "color": "Poop-Colored",
         "specialSkill": "Just picks the tomatoes off of a sandwich instead of requesting a whole new sandwich.",
-        "type": "dino",
+        "type": "Dino",
         "imageUrl": "http://www.jozilife.co.za/wp-content/uploads/The-Dino-Expo.jpg",
         "text": "warning",
         "background": "#fcf0df"
@@ -22,8 +22,8 @@
         "name": "Whiskers",
         "color": "Yellow",
         "specialSkill": "Can prove he is a real man by drinking whiskey.",
-        "type": "dino",
-        "imageUrl": "https://mydinosaurs.com/wp-content/uploads/2017/02/2-3-600x400.jpg",
+        "type": "Dino",
+        "imageUrl": "https://myDinosaurs.com/wp-content/uploads/2017/02/2-3-600x400.jpg",
         "text": "warning",
         "background": "#fcf0df"
       },
@@ -67,7 +67,7 @@
         "name": "Ginger",
         "color": "Grey",
         "specialSkill": "Comfortable in the outdoors for up to eight hours.",
-        "type": "dino",
+        "type": "Dino",
         "imageUrl": "https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/1c/86/74/1c867464-3b03-6a47-4e6e-28b56fecd727/pr_source.jpg/246x0w.jpg",
         "text": "warning",
         "background": "#fcf0df"
@@ -94,8 +94,8 @@
         "name": "Coco",
         "color": "Orange",
         "specialSkill": "Can be around food without staring creepily at it.",
-        "type": "dino",
-        "imageUrl": "http://www.cantref.com/userfiles/events/walking%20dino.jpg?w=600",
+        "type": "Dino",
+        "imageUrl": "http://www.cantref.com/userfiles/events/walking%20Dino.jpg?w=600",
         "text": "warning",
         "background": "#fcf0df"
       },
@@ -139,8 +139,8 @@
         "name": "Smokey",
         "color": "Poop-Colored",
         "specialSkill": "Drives at a safe rate of speed in snow or rain.",
-        "type": "dino",
-        "imageUrl": "https://images.readwrite.com/wp-content/uploads/2018/03/t-rex-dino-quiz-e1490854556549.jpg",
+        "type": "Dino",
+        "imageUrl": "https://images.readwrite.com/wp-content/uploads/2018/03/t-rex-Dino-quiz-e1490854556549.jpg",
         "text": "warning",
         "background": "#fcf0df"
       },
@@ -157,8 +157,8 @@
         "name": "Salem",
         "color": "Poop-Colored",
         "specialSkill": "Proficient in air guitar",
-        "type": "dino",
-        "imageUrl": "https://www.nation.co.ke/image/view/-/4078922/highRes/1742693/-/maxw/600/-/1453yvh/-/DINO.jpg",
+        "type": "Dino",
+        "imageUrl": "https://www.nation.co.ke/image/view/-/4078922/highRes/1742693/-/maxw/600/-/1453yvh/-/Dino.jpg",
         "text": "warning",
         "background": "#fcf0df"
       },
@@ -184,7 +184,7 @@
         "name": "Miss kitty",
         "color": "Red",
         "specialSkill": "Owns a Nintendo Power Glove.",
-        "type": "dino",
+        "type": "Dino",
         "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2015-11/2/12/enhanced/webdr15/anigif_enhanced-29802-1446485228-10.gif?crop=250:165;0,0&downsize=715",
         "text": "warning",
         "background": "#fcf0df"
@@ -239,7 +239,7 @@
         "name": "Chloe",
         "color": "Green",
         "specialSkill": "Admits he is wrong",
-        "type": "dino",
+        "type": "Dino",
         "imageUrl": "https://assets.creationmuseum.org/img/pages/1703-DinoDen-TwoCard.jpg",
         "text": "warning",
         "background": "#fcf0df"
@@ -266,8 +266,8 @@
         "name": "Lucy",
         "color": "Red",
         "specialSkill": "Doesn’t get weirded out by the word “moist.”",
-        "type": "dino",
-        "imageUrl": "http://lsae2.iypcdn.com/static//modules/uploads/photos/language1/dino-live-22.jpg?119",
+        "type": "Dino",
+        "imageUrl": "http://lsae2.iypcdn.com/static//modules/uploads/photos/language1/Dino-live-22.jpg?119",
         "text": "warning",
         "background": "#fcf0df"
       }

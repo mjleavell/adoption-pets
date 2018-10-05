@@ -1,9 +1,9 @@
 import {sortPets} from "./components/petComponent.js";
 
 const sortEvents = () => {
-    const dogBtn = document.getElementById('Dogs');
-    const catBtn = document.getElementById('Cats');
-    const dinoBtn = document.getElementById('Dinos');
+    const dogBtn = document.getElementById('Dog');
+    const catBtn = document.getElementById('Cat');
+    const dinoBtn = document.getElementById('Dino');
     const unfilterBtn = document.getElementById('Unfilter');
     dogBtn.addEventListener('click', sortPets);
     catBtn.addEventListener('click', sortPets);

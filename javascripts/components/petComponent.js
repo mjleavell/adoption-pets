@@ -1,10 +1,14 @@
 import {printToDom} from "../helpers/util.js";
 
-// i know i need this but not sure why
 let pets = [];
 
 const setPets = (newArray) => {
     pets = newArray;
+}
+
+// need to get populated pets array 
+const getPetz = () => {
+    return pets;
 }
 
 const petBuilder = () => {
@@ -28,14 +32,13 @@ const petBuilder = () => {
 }
 
 const sortPets = (e) => {
-    const petType = e.target.id;
-    console.log(petType);
-    if (petType === 'Unfilter') {
+    const buttonId = e.target.id;
+    if (buttonId === 'Unfilter') {
         console.log(petBuilder(pets));
     } else {
-        const filterPets = pets.filter(x => x.petType === petType);
-        console.log(filterPets);
+        const filteredPets = pets.filter(x => x.type === buttonId);
+        console.log(petBuilder(filteredPets));
     }
 }
 
-export {petBuilder, setPets, sortPets}
+export {petBuilder, setPets, sortPets, getPetz}
