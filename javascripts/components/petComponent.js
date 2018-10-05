@@ -15,7 +15,7 @@ const petBuilder = () => {
         domString +=    `<h3>${pets[i].name}</h3>`
         domString +=    `</div>`
         domString +=    `<div class="card-body">`
-        domString +=        `<img class="card-img-top" src="${pets[i].imageUrl}" alt="${pets[i].name}">`
+        // domString +=        `<img class="card-img-top" src="${pets[i].imageUrl}" alt="${pets[i].name}">`
         domString +=        `<h5 class="card-text mt-1">${pets[i].color}</h5>`
         domString +=        `<h5 class="card-text">${pets[i].specialSkill}</h5>`
         domString +=    `</div>`
@@ -27,4 +27,15 @@ const petBuilder = () => {
     printToDom(domString, 'pets');
 }
 
-export {petBuilder, setPets}
+const sortPets = (e) => {
+    const petType = e.target.id;
+    console.log(petType);
+    if (petType === 'Unfilter') {
+        console.log(petBuilder(pets));
+    } else {
+        const filterPets = pets.filter(x => x.petType === petType);
+        console.log(filterPets);
+    }
+}
+
+export {petBuilder, setPets, sortPets}
