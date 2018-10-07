@@ -1,9 +1,9 @@
-import {petBuilder, setPets} from '../components/petComponent.js';
+import {petBuilder, setPets, getPetz} from '../components/petComponent.js';
 
 function fileLoadSuccess () {
     const data = JSON.parse(this.responseText);
     setPets(data.pets);
-    petBuilder();
+    petBuilder(getPetz());
 }
 
 function fileLoadError () {
