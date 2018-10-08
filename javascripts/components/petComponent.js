@@ -20,8 +20,8 @@ const petBuilder = (petsArray) => {
         domString +=    `</div>`
         domString +=    `<div class="card-body">`
         domString +=        `<img class="card-img-top" src="${petsArray[i].imageUrl}" alt="${petsArray[i].name}">`
-        domString +=        `<h5 class="card-text mt-1">${petsArray[i].color}</h5>`
-        domString +=        `<h5 class="card-text">${petsArray[i].specialSkill}</h5>`
+        domString +=        `<p class="card-text mt-1">${petsArray[i].color}</p>`
+        domString +=        `<p class="card-text">${petsArray[i].specialSkill}</p>`
         domString +=    `</div>`
         domString +=    `<div class="card-footer text-${petsArray[i].text}" style="background-color: ${petsArray[i].background};">`
         domString +=        `<h3>${petsArray[i].type}</h3>`

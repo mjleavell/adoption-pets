@@ -2,6 +2,14 @@ body {
     background-color: lightgrey;
     text-align: center;
     margin-top: 25px;
+    background-image: url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0559/7317/rdog_bone_pattern_turq_shop_preview.jpg)
+}
+
+h1{
+    font-weight: bold;
+    /* color: grey; */
+    /* box-shadow: 3px 3px black; */
+    font-size: 60px;
 }
 
 #pets {
@@ -13,4 +21,8 @@ body {
 .card-img-top {
     height: 164px;
     object-fit: cover;
+}
+
+.buttons {
+    margin: 20px;
 }
